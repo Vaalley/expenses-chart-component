@@ -24,12 +24,12 @@
 			<h1 class="text-3xl font-bold text-dark-brown mb-6">Spending - Last 7 days</h1>
 			<div class="flex justify-between mb-2">
 				{#each data as {day, amount}, i}
-				<div class="w-11 h-24 bg-soft-red rounded-sm hover:bg-cyan hover:cursor-pointer"></div>
+				<div class="w-11 -lg:w-8 h-20 bg-soft-red rounded-sm hover:bg-cyan hover:cursor-pointer"></div>
 				{/each}
 			</div>
 			<div class="flex justify-between">
 				{#each data as {day, amount}, i}
-				<div class="w-11 flex justify-center">
+				<div class="w-11 -lg:w-8 flex justify-center">
 					<p class="text-medium-brown text-sm">{day}</p>
 				</div>
 				{/each}
